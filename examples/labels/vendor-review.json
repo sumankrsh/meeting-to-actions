@@ -1,0 +1,14 @@
+{
+  "transcript": "../vendor-review.txt",
+  "note": "Hand-labelled by the author of the synthetic transcript.",
+  "items": [
+    {"type": "risk", "text": "Vendor B processes data outside the UK and EU: a data residency concern"},
+    {"type": "decision", "text": "Go with Vendor A for the pilot"},
+    {"type": "action", "text": "Send the scoring sheet to procurement", "owner": "Ravi Nair", "due": "2026-11-23"},
+    {"type": "question", "text": "Does Vendor A keep copies of documents after processing?"},
+    {"type": "action", "text": "Ask Vendor A's security team for the retention policy and the latest pen test summary", "owner": "Olga Brandt"},
+    {"type": "action", "text": "Start the contract draft", "owner": "Sam Whitfield", "due": "2026-12-04"},
+    {"type": "action", "text": "Confirm the supplier's bank details by phone", "owner": "Olga Brandt", "due": "2026-11-21"},
+    {"type": "question", "text": "Who owns the model monitoring once the pilot is live?"}
+  ]
+}

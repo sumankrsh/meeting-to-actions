@@ -1,0 +1,15 @@
+{
+  "transcript": "../data-platform-standup.srt",
+  "date": "2026-11-25",
+  "note": "Hand-labelled by the author of the synthetic transcript. Run with --date 2026-11-25.",
+  "items": [
+    {"type": "risk", "text": "Sofia is blocked on access to the finance schema"},
+    {"type": "action", "text": "Escalate the access ticket with the platform team", "owner": "Marcus Bell", "due": "2026-11-25"},
+    {"type": "risk", "text": "Nightly load keeps failing on the supplier API timeout; the Monday sales report will be late"},
+    {"type": "action", "text": "Add a retry with backoff to the supplier extract", "owner": "Jun Park", "due": "2026-11-26"},
+    {"type": "decision", "text": "Use the smaller warehouse size for dev environments from now on"},
+    {"type": "action", "text": "Tell the analysts about the smaller dev warehouse before they notice slower queries", "owner": "Sofia Petrov"},
+    {"type": "question", "text": "Are we keeping the old reporting views after the migration?"},
+    {"type": "action", "text": "Replace the real-looking test fixtures with synthetic values", "owner": "Jun Park", "due": "2026-11-27"}
+  ]
+}

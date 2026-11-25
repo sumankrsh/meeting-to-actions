@@ -1,0 +1,16 @@
+{
+  "transcript": "store-ops-review.vtt",
+  "note": "Labelled before the extractor was first run on this transcript. Not used for tuning.",
+  "items": [
+    {"type": "risk", "text": "Shrinkage is up in the self-checkout trial and may get worse over the holidays"},
+    {"type": "action", "text": "Pull the shrinkage numbers by store for the last six weeks", "owner": "Owen Hart", "due": "2026-11-30"},
+    {"type": "question", "text": "Should we pause the self-checkout trial over Christmas?"},
+    {"type": "decision", "text": "Keep the trial running with one extra staff member on self-checkout at peak times"},
+    {"type": "action", "text": "Redo the holiday rota for both pilot stores", "owner": "Bea Lindqvist", "due": "2026-11-27"},
+    {"type": "risk", "text": "Scanner update not certified by the supplier; might delay the January rollout of the stock-count app"},
+    {"type": "question", "text": "When will the scanner certification be done?"},
+    {"type": "action", "text": "Get a firm certification date from the supplier in writing", "owner": "Kofi Asante", "due": "2026-12-04"},
+    {"type": "action", "text": "Let the store managers know the app might be late so they plan a paper count", "owner": "Owen Hart"},
+    {"type": "question", "text": "Do stores do the stock count overnight or before opening?"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "transcript": "../claims-steering.vtt",
+  "note": "Hand-labelled by the author of the synthetic transcript.",
+  "items": [
+    {"type": "risk", "text": "Text extraction is poor on scanned medical reports"},
+    {"type": "risk", "text": "Misreading a medical report could underpay someone: a conduct risk"},
+    {"type": "decision", "text": "Medical reports stay with a human handler; the pilot only triages motor damage photos and repair estimates"},
+    {"type": "action", "text": "Update the pilot scope document and send it round", "owner": "Grace Liu", "due": "2026-11-27"},
+    {"type": "action", "text": "Stop personal data going into free text in the pilot tool: add a check to the intake form", "owner": "Tom Okafor"},
+    {"type": "risk", "text": "Policy admin extract is blocked on the vendor's file layout; cut-over date might slip"},
+    {"type": "action", "text": "Chase the vendor for the file layout", "owner": "Aisha Khan", "due": "2026-11-25"},
+    {"type": "question", "text": "Do we keep the old extract running in parallel?"},
+    {"type": "action", "text": "Check the licence terms for the old extract with procurement", "owner": "Aisha Khan", "due": "2026-12-02"},
+    {"type": "action", "text": "Draft the risk note for the board pack on the migration delay", "owner": "Tom Okafor"},
+    {"type": "decision", "text": "Fraud model retraining moves to a quarterly schedule rather than monthly"},
+    {"type": "question", "text": "Who signs off the fraud model validation report: model risk or the claims director?"},
+    {"type": "action", "text": "Raise the validation sign-off question with the model risk committee", "owner": "Priya Raman"},
+    {"type": "action", "text": "Send the handler feedback survey results", "owner": "Grace Liu", "due": "2026-12-01"},
+    {"type": "action", "text": "Purge test card data from the training set before the next run", "owner": "Tom Okafor"}
+  ]
+}

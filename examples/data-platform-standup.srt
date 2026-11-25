@@ -1,0 +1,59 @@
+1
+00:00:02,000 --> 00:00:06,500
+Marcus Bell: Quick one today. Sofia, you first.
+
+2
+00:00:07,000 --> 00:00:15,000
+Sofia Petrov: Yesterday I finished the dedupe job for the customer table. Today I'm on the orders backfill.
+
+3
+00:00:15,500 --> 00:00:22,000
+Sofia Petrov: I'm blocked on access to the finance schema. I raised a ticket on Monday and nobody has picked it up.
+
+4
+00:00:22,500 --> 00:00:27,000
+Marcus Bell: I'll escalate the access ticket with the platform team this afternoon.
+
+5
+00:00:27,500 --> 00:00:36,000
+Jun Park: On my side the nightly load failed twice this week. It's the same timeout on the supplier API. If it keeps failing, the Monday sales report will be late.
+
+6
+00:00:36,500 --> 00:00:40,000
+Marcus Bell: Jun, could you add a retry with backoff to the supplier extract?
+
+7
+00:00:40,500 --> 00:00:44,000
+Jun Park: Yes, I'll have it in by Thursday.
+
+8
+00:00:44,500 --> 00:00:52,000
+Leah Adeyemi: Can we talk about the warehouse cost alert? We went over the monthly budget by about a fifth.
+
+9
+00:00:52,500 --> 00:01:00,000
+Marcus Bell: Let's go with the smaller warehouse size for dev environments from now on. That should cover most of it.
+
+10
+00:01:00,500 --> 00:01:06,000
+Leah Adeyemi: OK. Someone needs to tell the analysts before they notice slower queries.
+
+11
+00:01:06,500 --> 00:01:09,000
+Sofia Petrov: Leave it with me.
+
+12
+00:01:09,500 --> 00:01:16,000
+Leah Adeyemi: Are we still keeping the old reporting views after the migration?
+
+13
+00:01:16,500 --> 00:01:21,000
+Marcus Bell: Not sure. That depends on finance. Let's park that until the migration review.
+
+14
+00:01:21,500 --> 00:01:28,000
+Jun Park: One more thing, the test fixtures have a real-looking address and the IP 10.20.30.40 in them. I'll replace them with synthetic values by end of week.
+
+15
+00:01:28,500 --> 00:01:32,000
+Marcus Bell: Great, thanks everyone.

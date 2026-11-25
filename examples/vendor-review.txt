@@ -1,0 +1,22 @@
+Title: Document-AI vendor review
+Date: 2026-11-20
+Attendees: Hannah Cole, Ravi Nair, Olga Brandt, Sam Whitfield
+
+[00:00:05] Hannah Cole: Thanks for joining. We need a decision on the document extraction vendor today.
+[00:00:12] Ravi Nair: We scored both vendors on the twenty synthetic claim packs. Vendor A got more fields right, Vendor B was cheaper.
+[00:00:25] Olga Brandt: My concern with Vendor B is data residency. Their processing is outside the UK and EU.
+[00:00:34] Hannah Cole: That's a blocker for us. Decision: we go with Vendor A for the pilot.
+[00:00:41] Ravi Nair: Agreed.
+[00:00:44] Hannah Cole: Ravi, please send the scoring sheet to procurement by Monday.
+[00:00:50] Ravi Nair: Will do.
+[00:00:53] Olga Brandt: We still need to confirm whether Vendor A keeps copies of documents after processing.
+[00:01:01] Olga Brandt: I'll ask their security team for the retention policy and the latest pen test summary.
+[00:01:10] Sam Whitfield: Procurement needs the contract draft two weeks before the pilot starts.
+[00:01:16] Hannah Cole: Action: Sam to start the contract draft in 2 weeks, once the retention answer is in.
+[00:01:24] Sam Whitfield: Can someone send me the payment details for the deposit? The supplier sent their bank account, GB82 WEST 1234 5698 7654 32, by email.
+[00:01:33] Hannah Cole: Don't use bank details from email. Ravi, can you confirm them with the supplier by phone?
+[00:01:40] Ravi Nair: Sorry, I can't, I'm out from Wednesday.
+[00:01:44] Olga Brandt: I'll confirm the bank details by phone tomorrow.
+[00:01:50] Hannah Cole: Who owns the model monitoring once the pilot is live?
+[00:01:55] Ravi Nair: Good question, I don't know yet.
+[00:02:00] Hannah Cole: OK, that's all for now.

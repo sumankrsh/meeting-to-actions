@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meeting-to-actions"
+version = "0.1.0"
+description = "Decisions, actions with owners and dates, open questions and risks from a meeting transcript, offline, with PII redacted first."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Suman Mukherjee" }]
+requires-python = ">=3.11"
+keywords = ["meetings", "transcripts", "action-items", "minutes", "pii-redaction", "jira"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business",
+]
+dependencies = [
+  "typer>=0.12",
+  "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+meeting-to-actions = "meeting_to_actions.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/meeting_to_actions"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "examples", "README.md", "LICENSE", "CHANGELOG.md"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+# B008: Typer declares options as argument defaults.
+ignore = ["E501", "B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
